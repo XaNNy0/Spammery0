@@ -57,7 +57,7 @@ public class Spammer extends KeyAdapter {
         }
     }
 
-    public void spam() {
+    private void spam() {
         Robot robot;
         try {
             robot = new Robot();
