@@ -17,7 +17,7 @@ namespace KeySpammer
             IKeyboardSimulator keyboard = new KeyboardSimulator(simulator);
 
             //Hier gewünschten Key einfügen
-            //keyboard.KeyPress(VirtualKeyCode.VK_1);
+            keyboard.KeyPress(VirtualKeyCode.VK_1);
 
             //Für Fließtext
             keyboard.TextEntry("Automatisch generiert! \n");
